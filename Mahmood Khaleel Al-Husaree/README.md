@@ -28,24 +28,6 @@ A complete collection of 114 Quranic Surah audio recordings recited by **Mahmood
 | File Format | `.opus` |
 | Collection Status | Complete |
 
-## Audio File Structure
-
-```text
-quran-audio/
-└── Mahmood Khaleel Al-Husaree/
-    ├── 001.opus
-    ├── 002.opus
-    ├── 003.opus
-    ├── 004.opus
-    ├── 005.opus
-    ├── ...
-    ├── 110.opus
-    ├── 111.opus
-    ├── 112.opus
-    ├── 113.opus
-    └── 114.opus
-```
-
 ## Complete Audio File List
 
 | # | Filename | File Size |
@@ -177,29 +159,6 @@ This repository uses **Git LFS** to manage large OPUS audio files efficiently.
 | Hash Algorithm | SHA-256 |
 | Pointer Format | Git LFS Pointer |
 
-### LFS Configuration
-
-The repository tracks OPUS files using the following `.gitattributes` configuration:
-
-```gitattributes
-*.opus filter=lfs diff=lfs merge=lfs -text
-```
-
-### Downloading the Collection
-
-Clone the repository with all audio files:
-
-```bash
-git lfs install
-git clone https://github.com/helloanaroul/quran-audio.git
-```
-
-If the repository has already been cloned:
-
-```bash
-git lfs pull
-```
-
 ## Audio Format
 
 The collection uses the **Opus audio codec**, designed for efficient audio compression while maintaining good sound quality.
@@ -223,8 +182,6 @@ The collection uses the **Opus audio codec**, designed for efficient audio compr
 ## Credits
 
 **Audio Reciter:** Mahmood Khaleel Al-Husaree
-
-**Repository Maintainer:** [Anaroul Hasan](https://github.com/helloanaroul)
 
 ---
 
