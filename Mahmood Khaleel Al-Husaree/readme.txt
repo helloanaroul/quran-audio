@@ -1,8 +1,4 @@
-OPEN-SOURCE QURAN AUDIO LIBRARY
-================================================
-
 PROJECT INFORMATION
-------------------------------------------------
 Project       : Quran Audio Library
 Repository    : https://github.com/helloanaroul/quran-audio
 Folder        : Mahmood Khaleel Al-Husaree
@@ -12,13 +8,7 @@ Total Surahs   : 114
 Naming Format  : 001.opus - 114.opus
 Storage        : Git Large File Storage (Git LFS)
 
-SOURCE INFORMATION
-------------------------------------------------
-Source        : https://download.quranicaudio.com/quran/mahmood_khaleel_al-husaree_iza3a/opus/
-Source Type   : Quran Audio Recitation
-
 AUDIO FILE DETAILS
-------------------------------------------------
 001.opus           276.22 KB
 002.opus            56.17 MB
 003.opus            33.83 MB
@@ -135,34 +125,12 @@ AUDIO FILE DETAILS
 114.opus           312.27 KB
 
 COLLECTION SUMMARY
-------------------------------------------------
 Available Files : 114/114
 Missing Files   : 0
 Total Size      : 810.15 MB
 Total Bytes     : 849,503,503
 
 GITHUB LFS INFORMATION
-------------------------------------------------
 Extension       : .opus
 LFS             : Enabled / Expected
 Pointer Format  : Git LFS SHA-256
-
-USAGE
-------------------------------------------------
-Clone the repository using Git:
-git clone https://github.com/helloanaroul/quran-audio.git
-
-Install Git LFS before cloning:
-git lfs install
-
-Then access the audio files inside the folder:
-Mahmood Khaleel Al-Husaree/
-
-NOTES
-------------------------------------------------
-- File sizes are collected from HTTP Content-Length.
-- Audio files are not downloaded by this script.
-- Git LFS quota and bandwidth limits may apply.
-- Verify source licensing and attribution before redistribution.
-
-Generated automatically by Quran Audio Info Uploader.
